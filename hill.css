@@ -1,7 +1,19 @@
+html {
+        background: url('portfolio images/HiddenValleySnow.JPG') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /*background="portfolio images/night snow.jpeg" alt=""*/
+    }
+
 body {
-  color: white;
+  color: #D4D6DE;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background-repeat: no-repeat;
-  background-color: grey;
+  /*background-color: #5B3D3D;*/
+  /*background-color: #3F3535;*/
 }
 aside {
   float: right;
@@ -9,11 +21,16 @@ aside {
   /*opacity: .4;*/
   background-color: green;
 }
+a {
+  color: #61679B;
+}
 
 .sidebar {
     width: 150px;
     height: 30px;
-    background-color: grey;
+    /*background-color: #594848;*/
+    background-color: #3F3535;
+    opacity: 0.8;
     padding: 50px;
     padding-bottom: 500px;
     padding-top: 200px;
@@ -34,7 +51,7 @@ img {
     height: auto;
     /*background-image: url('img_flowers.jpg');*/
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /*border: 1px solid black;*/
     padding-top: 100px;
     opacity: .8;
